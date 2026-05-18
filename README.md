@@ -1,2 +1,2 @@
 # Interactive-Algorithm-Visualizer-Platform
-APython project where users can run algorithms step-by-step and visually see the process.
+A Python project where users can run algorithms step-by-step and visually see the process, currently under development.
