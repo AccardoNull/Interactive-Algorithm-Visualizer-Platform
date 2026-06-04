@@ -2,12 +2,12 @@
 An interactive full-stack web application that visualizes algorithm execution step-by-step to help users understand complex computational processes. The long-term goal of the platform is to support additional algorithms including DFA simulation, graph traversal algorithms (BFS/DFS), shortest path algorithms, dynamic programming visualizations, and local file/image search tools.
 
 # Completed features
-**KMP visualizer**
+**KMP visualizer**  
 a Knuth-Morris-Pratt (KMP) string matching visualizer that demonstrates pattern searching, prefix table construction, and character-by-character comparisons through an intuitive graphical interface.
 
 Built with a React frontend and FastAPI backend, the application generates detailed execution traces that allow users to navigate algorithm states, inspect internal variables, and observe how algorithm decisions evolve over time. The project aims to make fundamental computer science concepts more accessible through interactive visualization and real-time feedback.
 
-**Features:**
+**Features:**  
 - Step-by-step visualization of the KMP string matching algorithm
 - Interactive text and pattern comparison highlighting
 - Dynamic LPS (Longest Prefix Suffix) table construction display
@@ -16,7 +16,7 @@ Built with a React frontend and FastAPI backend, the application generates detai
 - React-based frontend with real-time visualization updates
 - Automated testing and continuous integration using GitHub Actions
 
-**Tech Stack:**
+**Tech Stack:**  
 Frontend
 - React
 - Vite
@@ -34,7 +34,7 @@ Development Tools
 - GitHub Actions
 - Pytest
 
-**Screenshots:**
+**Screenshots:**  
 ![screenshot1](ImageFolder/Screenshot1.jpg)
 ![screenshot2](ImageFolder/Screenshot2.jpg)
 ![screenshot3](ImageFolder/Screenshot3.jpg)
