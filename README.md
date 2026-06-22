@@ -1,6 +1,6 @@
 # Interactive-Algorithm-Visualizer-Platform
 ## Overview
-An interactive full-stack web application that visualizes algorithm execution step-by-step to help users understand complex computational processes. The long-term goal of the platform is to support additional algorithms including DFA simulation, graph traversal algorithms (BFS/DFS), shortest path algorithms, dynamic programming visualizations, and local file/image search tools.
+An interactive full-stack web application that visualizes KMP algorithm execution step-by-step to help users understand complex computational processes and utilizes the algorithm's string matching function for quick local image file search. The long-term goal of the platform is to support additional algorithms including DFA simulation and graph traversal algorithms (BFS/DFS), as well as external image search API integration.
 
 ## Completed features
 ### KMP visualizer
@@ -23,15 +23,15 @@ Built with a React frontend and FastAPI backend, the application generates detai
 ![screenshot2](ImageFolder/Screenshot2.jpg)
 ![screenshot3](ImageFolder/Screenshot3.jpg)
 
-### Image/File Search Framework
+### Image File Search Framework
 
-An interactive full-stack search application that enables users to locate images and files using keyword-based pattern matching across filenames, tags, and descriptive metadata. The framework leverages the Knuth-Morris-Pratt (KMP) string matching algorithm to efficiently identify relevant records and return searchable results through a responsive graphical interface.
+An interactive full-stack search application that enables users to locate images files using keyword-based pattern matching across filenames, tags, and descriptive metadata. The framework leverages the Knuth-Morris-Pratt (KMP) string matching algorithm to efficiently identify relevant records and return searchable results through a responsive graphical interface.
 
 Built with a React frontend and FastAPI backend, the application automatically indexes image assets, extracts searchable metadata from filenames, and generates a structured search database for efficient retrieval. User queries are processed through a custom search engine that performs pattern matching against indexed file records and displays matching images with associated metadata. The project aims to bridge algorithmic pattern matching with practical search engine functionality while providing a foundation for future enhancements such as local file indexing, metadata extraction, AI-generated image captions, and desktop search capabilities.
 
 #### Features
 
-- Keyword-based image and file search using the KMP string matching algorithm
+- Keyword-based image file search using the KMP string matching algorithm
 - Automated image indexing pipeline that scans directories and generates searchable metadata records
 - Search across filenames, tags, descriptions, and indexed file metadata
 - Interactive image gallery with real-time search results and metadata display
@@ -59,16 +59,6 @@ FastAPI Search API
 React Search Interface
 ```
 
-#### Planned Enhancements
-
-- Recursive indexing of local folders and subdirectories
-- SQLite-backed metadata storage and indexing
-- File type, size, and date filtering
-- Relevance ranking and fuzzy search capabilities
-- AI-generated image captions and automatic tagging
-- Desktop-scale file and image search across user-selected directories
-
-
 #### Screenshots
 ![screenshot4](ImageFolder/Screenshot4.jpg)
 ![screenshot5](ImageFolder/Screenshot5.jpg)
@@ -92,7 +82,3 @@ Development Tools
 - VS Code
 - GitHub Actions
 - Pytest
-
-## Ongoing development
-- local file/image search
-- DFA simulation
