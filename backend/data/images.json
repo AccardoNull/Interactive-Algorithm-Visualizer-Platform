@@ -3,14 +3,61 @@
     "id": 1,
     "filename": "black_cat_sleeping.jpg",
     "url": "/images/black_cat_sleeping.jpg",
-    "tags": ["cat", "pet", "sleeping", "animal"],
-    "description": "A black cat sleeping on a sofa"
+    "filepath": "static\\images\\black_cat_sleeping.jpg",
+    "extension": ".jpg",
+    "size_bytes": 164935,
+    "last_modified": "2026-06-10T12:23:47.446047",
+    "tags": [
+      "black",
+      "cat",
+      "sleeping"
+    ],
+    "description": "black cat sleeping"
   },
   {
     "id": 2,
     "filename": "city_road_construction.jpg",
     "url": "/images/city_road_construction.jpg",
-    "tags": ["road", "construction", "city", "traffic"],
-    "description": "Road construction in a downtown area"
+    "filepath": "static\\images\\city_road_construction.jpg",
+    "extension": ".jpg",
+    "size_bytes": 140542,
+    "last_modified": "2026-06-10T12:19:39.935267",
+    "tags": [
+      "city",
+      "road",
+      "construction"
+    ],
+    "description": "city road construction"
+  },
+  {
+    "id": 3,
+    "filename": "Norway_Mountain_Cloud_Lightning.webp",
+    "url": "/images/Norway_Mountain_Cloud_Lightning.webp",
+    "filepath": "static\\images\\Norway_Mountain_Cloud_Lightning.webp",
+    "extension": ".webp",
+    "size_bytes": 55358,
+    "last_modified": "2026-06-22T13:58:10.686462",
+    "tags": [
+      "norway",
+      "mountain",
+      "cloud",
+      "lightning"
+    ],
+    "description": "norway mountain cloud lightning"
+  },
+  {
+    "id": 4,
+    "filename": "white_cat_stretching.webp",
+    "url": "/images/white_cat_stretching.webp",
+    "filepath": "static\\images\\white_cat_stretching.webp",
+    "extension": ".webp",
+    "size_bytes": 59100,
+    "last_modified": "2026-06-22T14:11:22.451949",
+    "tags": [
+      "white",
+      "cat",
+      "stretching"
+    ],
+    "description": "white cat stretching"
   }
 ]

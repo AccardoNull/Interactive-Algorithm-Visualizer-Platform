@@ -115,13 +115,23 @@ function App() {
      <div className="image-grid">
        {searchResults.map((image) => (
          <div key={image.id} className="image-card">
-           <img
-             src={`http://127.0.0.1:8000${image.url}`}
-             alt={image.description}
-           />
+           <a
+            href={`http://127.0.0.1:8000${image.url}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={`http://127.0.0.1:8000${image.url}`}
+              alt={image.description}
+            />
+          </a>
 
-           <h3>{image.filename}</h3>
-           <p>{image.description}</p>
+           <h3 className="image-filename">
+               {image.filename}
+           </h3>
+           <p className="image-description">
+               {image.description}
+           </p>
 
            <div>
             {image.tags.map((tag) => (
