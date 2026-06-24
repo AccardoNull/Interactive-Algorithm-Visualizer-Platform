@@ -18,3 +18,13 @@ def test_kmp_endpoint():
 
     assert response.status_code == 200
     assert "steps" in response.json()
+
+def test_search_endpoint():
+    response = client.get("/search?q=cat")
+
+    assert response.status_code == 200
+    data = response.json()
+
+    assert "query" in data
+    assert "count" in data
+    assert "results" in data
