@@ -35,7 +35,7 @@ Built with a React frontend and FastAPI backend, the application automatically i
 - Automated image indexing pipeline that scans directories and generates searchable metadata records
 - Search across filenames, tags, descriptions, and indexed file metadata
 - Interactive image gallery with real-time search results and metadata display
-- Clickable image previews linking directly to original image assets
+- Clickable image previews and filenames that link directly to original image assets and open file location
 - FastAPI backend for search processing, indexing, and metadata retrieval
 - React-based frontend with dynamic query submission and result rendering
 - Static asset serving for image storage and retrieval
