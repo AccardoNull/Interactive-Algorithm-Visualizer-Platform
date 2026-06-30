@@ -66,14 +66,14 @@ React Search Interface
 ![screenshot5](ImageFolder/Screenshot5.jpg)
 ![screenshot6](ImageFolder/Screenshot6.jpg)
 
-#### Usage
-##### Local Windows execution mode
+## Usage
+### Local Windows execution mode
 - cd backend
   - .\\.venv\Scripts\Activate.ps1
   - uvicorn main:app --reload
 - cd frontend
   - npm run dev
-##### Docker
+### Docker
 - docker compose up --build
 
 ## Tech Stack
