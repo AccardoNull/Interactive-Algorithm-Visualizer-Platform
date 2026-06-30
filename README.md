@@ -2,6 +2,9 @@
 ## Overview
 An interactive full-stack web application that visualizes KMP algorithm execution step-by-step to help users understand complex computational processes and utilizes the algorithm's string matching function for quick local image file search. The long-term goal of the platform is to support additional algorithms including DFA simulation and graph traversal algorithms (BFS/DFS), as well as external image search API integration.
 
+## Demo
+Live Demo: https://interactive-algorithm-visualizer-im.vercel.app/
+
 ## Completed features
 ### KMP visualizer
 
@@ -66,7 +69,7 @@ React Search Interface
 ![screenshot5](ImageFolder/Screenshot5.jpg)
 ![screenshot6](ImageFolder/Screenshot6.jpg)
 
-## Usage
+## Local Usage
 ### Local Windows execution mode
 - cd backend
   - .\\.venv\Scripts\Activate.ps1
@@ -96,3 +99,7 @@ Development Tools
 - Git
 - Pytest
 - Docker
+
+Cloud deployment
+- Vercel
+- Railway
