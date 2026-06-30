@@ -4,7 +4,7 @@ An interactive full-stack web application that visualizes KMP algorithm executio
 
 ## Demo
 Live Demo: https://interactive-algorithm-visualizer-im.vercel.app/  
-The search function is currently limit to the sample images shown in the repository, under backend/static/images.
+The search function is currently limited to the sample images stored in the repository, under backend/static/images.
 
 ## Completed features
 ### KMP visualizer
@@ -70,21 +70,21 @@ React Search Interface
 ![screenshot5](ImageFolder/Screenshot5.jpg)
 ![screenshot6](ImageFolder/Screenshot6.jpg)
 
-## Usage
+## Local Usage
 ### Set up frontend and backend server
 Local Windows execution mode
 - cd backend
   - .\\.venv\Scripts\Activate.ps1
-  - uvicorn main:app --reload
+    - uvicorn main:app --reload
 - cd frontend
-  - npm run dev  
+  - npm run dev
 Docker
-- docker compose up --build  
+- docker compose up --build
 
 ### Image metadata indexing
-Store images under backend/static/images, then run
+Store images under backend/static/images, then run:
 - cd backend
-- py index_images.py
+  - py index_images.py
 
 ## Tech Stack
 
